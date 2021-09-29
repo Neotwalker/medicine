@@ -1,0 +1,90 @@
+.content-wrapper{
+    width: 100%;
+}
+.documents-header{
+    position: relative;
+    padding: 18px 0 40px 0;
+}
+.documents-header .documents-all-zip{
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+}
+.documents-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #fafafa;
+    padding: 60px 31rem;
+    margin: 0 -31rem;
+    font-family: 'NotoSans';
+}
+.documents-main>.doc-item{
+    display: inline-block;
+    width: 270px;
+    padding: 0 0 90px 0;
+    color: #000;
+    transition: color .5s;
+}
+.doc-item img{
+    display: block;
+    width: 270px;
+    /* height: 320px; */
+    margin: auto;
+    transition: box-shadow .5s;
+}
+.doc-item .doc-name{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+    margin: 28px 0 0 0
+}
+.doc-item:hover{
+    color: #7570b4;
+}
+.doc-item:hover img{
+    box-shadow: 0 0 10px -6px #000;
+}
+.doc-item:hover::after{
+    content: 'показать';
+    position: absolute;
+    display: inline-block;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 32px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ffc800;
+    margin: 15px 0 0 0;
+}
+.styled p, .styled p.sel {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #000;
+    line-height: 2.6rem;
+}
+.styled ul li {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    line-height: 2rem;
+}
+.styled ul li:before {
+    content: "\2022";
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    color: #7570b4;
+    /* display: block; */
+    top: 0px;
+    left: -16px;
+    width: 0px;
+    height: 0px;
+    background: #7570b4;
+}
+.styled h2 {
+    line-height: 2.6rem;    
+}    

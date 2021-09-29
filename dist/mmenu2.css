@@ -1,0 +1,157 @@
+/* :root {
+-mm-sidebar-collapsed-size: 0px;    
+} */
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+body {
+	-webkit-text-size-adjust: none;
+}
+.mm-listitem__btn {
+  padding-right: 74px;
+}
+.mm-navbar {
+ font-family: NotoSans,sans-serif;
+ background: #EBE7F8;
+}
+.mm-navbar__breadcrumbs {
+ font-family: NotoSans,sans-serif;
+}
+.mm-searchfield input, .mm-searchfield input:focus, .mm-searchfield input:hover {
+ background: white;   
+}
+/* .mm-navbar__btn {
+  margin-top: -130px!important;
+}     */
+/* nav:not(.mm-menu) {
+	display: none;
+} */
+
+/* .content {
+	padding: 150px 50px 50px 50px;
+} */
+/* мобильные устройства */
+@media screen and (max-width: 1240px)
+{
+.mm-navbar__breadcrumbs {
+font-size: 23px;	
+}	
+.mm-listitem {
+font-family: NotoSans,sans-serif;
+font-size: 28px;	
+}
+.mm-searchfield input {
+/* width: 90%; */
+border-radius: 24px;
+} 
+.mm-searchfield__input {
+    font-family: NotoSans,sans-serif;   
+    font-size: 23px;
+    /* width: 90%;	 */
+}
+}
+
+@media screen and (max-width: 814px)
+{
+.mm-navbar__breadcrumbs {
+font-size: 28px;	
+}	
+.mm-listitem {
+font-family: NotoSans,sans-serif;
+font-size: 32px;	
+}
+.mm-searchfield__input {
+    font-family: NotoSans,sans-serif;   
+	font-size: 28px;	
+}
+}
+
+/* @media screen and (max-width: 814px) {
+    .scrollToTop {
+        display: none !important;
+    }
+
+    .img-korsina-2 {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .header-row1 {
+        font-size: 15px !important;
+    }
+
+    .ph_head {
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .ph_head span {
+        margin-left: 0px !important;
+    }
+
+    .bx-left {
+        margin-left: 0px !important;
+    }
+
+    .container {
+        padding: 0 3%;
+    }
+
+    .name a {
+        font-size: 9px !important;
+    }
+
+    .mm-menu_offcanvas {
+        width: 90% !important;
+    }
+
+    .mm-wrapper_opening .mm-menu_offcanvas.mm-menu_opened ~ .mm-slideout {
+        transform: translate3d(90vw, 0, 0) !important;
+    }
+
+    .parent {
+        color: black !important;
+        font-size: 15px !important;
+    }
+
+    .root-item {
+        color: black !important;
+        font-size: 15px !important;
+    }
+
+    .mm-listitem a {
+        color: black !important;
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 769px) {
+    .mr-suka {
+        display: none !important;
+    }
+}
+
+@media (max-width: 979px) {
+    #footer #footerphones {
+        max-height: 70px;
+    }
+}
+
+#footer {
+    background: #ebe8e1;
+    padding: 70px 0 70px !important;
+}
+
+@media (min-width: 1259px) {
+    .mr-suka {
+        bottom: 80px !important;
+    }
+}
+
+@media (max-width: 759px) {
+    #search #title-search-input {
+        width: 108% !important;
+    }
+}	 */

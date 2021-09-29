@@ -1,0 +1,64 @@
+.content-wrapper{
+    width: 100%;
+}
+.documents-header{
+    position: relative;
+    padding: 18px 0 40px 0;
+}
+.documents-header .documents-all-zip{
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+}
+.documents-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #fafafa;
+    padding: 60px 31rem;
+    margin: 0 -31rem;
+    font-family: 'NotoSans';
+}
+.documents-main>.doc-item{
+    display: inline-block;
+    width: 270px;
+    padding: 0 0 90px 0;
+    color: #000;
+    transition: color .5s;
+}
+.doc-item img{
+    display: block;
+    width: 270px;
+    /* height: 320px; */
+    margin: auto;
+    transition: box-shadow .5s;
+}
+.doc-name{
+    height: 64px;
+}
+.doc-item .doc-name{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 28px 0 20px 0;
+}
+.doc-item:hover{
+    color: #5ba529;
+}
+.doc-item:hover img{
+    box-shadow: 0 0 10px -6px #000;
+}
+.doc-item:hover::after{
+    content: 'показать';
+    position: absolute;
+    display: inline-block;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 32px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #5ba529;
+    margin: 15px 0 0 0;
+}
