@@ -28,7 +28,7 @@ body {
 .glass::before {
   background-image: url('menu.jpg');
   width: 1000px;
-  height: 160px;
+  height: 215px;
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -51,7 +51,7 @@ body {
 }
 .nav {
   width: 1000px;
-  height: 160px;
+  height: 215px;
   margin: 0 auto;
   position: absolute;
   top: 1rem;
@@ -65,7 +65,7 @@ body {
   margin: 0;
   padding: 0;
   width: 200px;
-  height: 160px;
+  height: 215px;
   padding-top: 1.5rem;
   
 }
