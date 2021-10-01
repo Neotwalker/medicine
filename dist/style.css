@@ -10824,13 +10824,13 @@ section.content.no-margin
 }
 .parsley-errors-list
 {
-	bottom: -18px;
+	bottom: -8px;
 	color: #c00;
 	font-size: 14px;
 	left: 0;
 	line-height: 14px;
 	position: absolute;
-	text-align: left;
+	text-align: right;
 	width: 100%;
 }
 .parsley-error
