@@ -9,6 +9,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 nav ul
 {
 	list-style: none;
+	text-transform: uppercase;
 }
 blockquote,q
 {
