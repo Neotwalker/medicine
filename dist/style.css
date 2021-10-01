@@ -13896,6 +13896,8 @@ section.content.no-margin
 	{
 		height: auto;
 		width: 100%;
+		margin-top: 1.5rem;
+		margin-left: 0;
 	}
 	.oplata-map
 	{
