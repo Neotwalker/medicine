@@ -12459,8 +12459,7 @@ section.content.no-margin
 	}
 	.main-slider
 	{
-		height: calc(95vh - 13rem);
-		margin-top: 5rem;
+		height: 100vh;
 	}
 	.main-slider__controls
 	{
