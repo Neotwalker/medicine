@@ -11711,6 +11711,9 @@ section.content.no-margin
 {
 	margin-top: 15px;
 }
+.email, .tel{
+	display: block;
+}
 .show-more
 {
 	color: #7C6EB0;
@@ -14684,12 +14687,6 @@ section.content.no-margin
 	.reviews-parent__col_right {
 		width: 560px;
 		padding: 1rem 3rem 3rem;
-	}
-
-	#TV {
-		padding: 20px;
-		width: 462px;
-		height: 437px;
 	}
 }
 @media (min-width: 1024px){
